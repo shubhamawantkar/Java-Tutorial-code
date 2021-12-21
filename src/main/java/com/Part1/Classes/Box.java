@@ -4,9 +4,9 @@ package com.Part1.Classes;
 A program that uses the box class.
  */
 public class Box {
-    double width;
-    double height;
-    double depth;
+   public double width;
+   public double height;
+   public double depth;
 }
 
 // this class declares an object of type Box.

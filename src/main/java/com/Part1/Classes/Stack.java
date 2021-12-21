@@ -8,7 +8,7 @@ public class Stack {
     int tos;
 
     // Initialize top-of-stack
-    Stack(){
+    public Stack(){
         tos = -1;
     }
 

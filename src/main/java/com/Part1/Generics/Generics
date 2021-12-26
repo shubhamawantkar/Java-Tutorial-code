@@ -1,0 +1,36 @@
+Generics in Java
+
+Definition: The process of injecting homogeneous object in to container object
+of Java collection framework
+
+introduced in jdk 1.5
+By default JCF is not a type safety[Heterogeneous]
+We are face one runtime exception, that is java.lang.ClassCastException
+
+Arrays by default maintaining type safety[homogeneous]
+
+
+Program on generics in java
+
+class classname<T>{
+T x;
+classname<T x>{
+this.x = x;
+}
+T getValue(){
+return x;
+}
+}
+
+
+program on method level generics
+
+m1(ArrayList<Integer> al)
+m1(ArrayList<? extends X> al)  //X--> class
+m1(ArrayList<? extends Y> al)  //Y--> Interface
+m1(ArrayList<? super X> al)    //X--> class
+m1(ArrayList<? extends Y> al)  //Y--> interface implements super class
+
+m1(ArrayList<?> al)  // all type of data
+m1(ArrayList<Object> al) // object type data
+

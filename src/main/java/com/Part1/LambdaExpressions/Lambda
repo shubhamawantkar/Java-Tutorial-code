@@ -1,0 +1,37 @@
+Java lambda expressions are java's first step into functional programming
+It is an anonymous function that doesn't have a name and doesn't belong to any class
+It provides a clear and concise way to represent a method interface via an expression
+Provides the implementation of a functional interface & simplifies the software development
+
+Syntax      (parameter) -> expression body
+               -> arrow operator is introduced in java through lambda
+               expressions that divides it into two parts, i.e parameters and body
+
+Characteristics
+            Optional type declarations
+            Optional parenthesis around parameters
+            Optional curly braces
+            Optional return keyword
+
+
+Functional Interface
+1> Functional interface is an interface that contains exactly one abstract method
+2> It can have any number of default or static methods along with object class methods
+3> Java provides predefined functional interfaces to deal with functional programming
+4> Runnable, ActionListener, Comparable are some of the examples of functional interfaces
+
+
+Lambda as an object
+
+    A java lambda expression is essentially an object that can be assigned to a variable and passed around
+    lambda expression can access variables thar are declared outside the lambda function body under certain circumstances
+
+    1> Local variable
+    2> Instance variable
+    3> Static variable
+
+Method References as lambdas
+    1> static method reference
+    2> Parameter method reference
+    2> Instance method reference
+    3> Constructor method reference

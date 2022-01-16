@@ -21,8 +21,6 @@ public class EvenOrOdd {
     static boolean evenOrOdd(int num){
         if(num%2==0){
             return true;
-        }else {
-            return false;
-        }
+        return false;
     }
 }
